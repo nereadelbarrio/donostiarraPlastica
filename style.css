@@ -669,6 +669,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-title-1 {
     border-radius: 0 0 38px 38px;
     color: #F08B25;
+    font-size: 25px;
     text-shadow: -1px 1px 0px #5b5b5b, -1px 0 0 #d2d2d2, 0px 1px 0 #686868, 0 -1px 0 #000000, 1px 1px #7e7e7e, -1px -1px 0 #333333, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 }
 
@@ -711,6 +712,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: 0px;
     font-family: 'Gill Sans';
     font-weight: 500;
+}
+
+/*título 5*/
+.bck-title-5 {
+    border-radius: 0 0 38px 38px;
+    color: #F08B25;
+    text-shadow: -1px 1px 0px #5b5b5b, -1px 0 0 #d2d2d2, 0px 1px 0 #686868, 0 -1px 0 #000000, 1px 1px #7e7e7e, -1px -1px 0 #333333, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 }
 
 
@@ -1076,6 +1084,57 @@ counter-increment: bck-li-counter;
     font-size: 2.2rem
 }
 
+/*caja 3*/
+.bck-box.bck-box-3 {
+    margin-top: 5px;
+    padding: 5px;
+    background: #B9E6FB;
+    box-shadow: 3px 3px 2px 0px #B9E6FB;
+    border-radius: 20px;
+    border: 3px solid #4D8DC5;
+    margin-bottom: 20px;
+}
+
+.bck-box.bck-box-3>.bck-title {
+font-weight: 700;
+    text-align: center;
+    color: #231F20;
+}
+
+
+.bck-box.bck-box-3>.bck-content {
+    padding: 8px 18px 8px 19px
+}
+
+.bck-box-3>.bck-content p {
+    font-size: 2.2rem
+}
+
+/*caja 4*/
+.bck-box.bck-box-4 {
+    margin-top: 5px;
+    padding: 5px;
+    background: #FEE3C4;
+    box-shadow: 3px 3px 2px 0px #B9E6FB;
+    border-radius: 20px;
+    border: 3px solid #F7961D;
+    margin-bottom: 20px;
+}
+
+.bck-box.bck-box-4>.bck-title {
+font-weight: 700;
+    text-align: center;
+    color: #231F20;
+}
+
+
+.bck-box.bck-box-4>.bck-content {
+    padding: 8px 18px 8px 19px
+}
+
+.bck-box-4>.bck-content p {
+    font-size: 2.2rem
+}
 
 /**/
 
@@ -1155,8 +1214,17 @@ td,th {
     border: 0 solid #ccc
 }
 
+/*TABLA 1*/ 
+table.bck-table-1 {
+    border: 2px solid #F08B25;
+}
 
 
+table.bck-table-1 td {
+    border-color: #F08B25;
+}
+
+/*Actividades*/
 #actividad .workspace.test .respuestas li {
     width: 32%
 }
