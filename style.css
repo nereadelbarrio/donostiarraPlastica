@@ -93,7 +93,7 @@
         url('fonts/MyriadPro-Bold.woff') format('woff'),
         url('fonts/MyriadPro-Bold.ttf') format('truetype'),
         url('fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -691,6 +691,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-radius: 10px;
     text-shadow: -1px 1px 0px #bababa, -1px 0 0 #bababa, 0px 1px 0 #bababa, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
     box-shadow: 3px 3px 2px 0px #707173;
+    margin-bottom: 25px;
 }
 
 /*título 3*/
@@ -1019,7 +1020,7 @@ ctividad .content .workspace ul li .bck-ol-1,
     top: 2px;
     left: 0;
     padding-left: 19px;
-    font-family: Conv_ProximaNova-Bold
+    font-family: 'Myriad Pro';
 }
 
 .bck-box.bck-box-1>.bck-content {
@@ -1032,6 +1033,14 @@ ctividad .content .workspace ul li .bck-ol-1,
 
 .bck-box.bck-box-1>.bck-title p {
     font-size: 26px;
+}
+
+.bck-box.bck-box-1:before {
+    display: none;
+}
+
+.bck-box.bck-box-1:after {
+    display: n
 }
 
 /**/
