@@ -671,17 +671,14 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*título 1*/
 .bck-title-1 {
-    color: #f08b25;
-    font-size: 2rem;
-    background: none;
-    width: fit-content;
+    padding: 43px 20px 12px 20px;
+    border-radius: 0 0 38px 38px;
+    color: #fff;
+    background-color: #F08B25;
+    font-size: 8rem;
     position: relative;
-    text-align: left;
-    padding: 7px 20px 7px 54px;
-    left: -97px;
-    font-weight: 700;
-    margin-top: -14px;
-    text-shadow: -1px 1px 0px #343434, -1px 0 0 #343434, 0px 1px 0 #343434, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
+    top: -1px;
+    text-shadow: -1px 1px 0px #5b5b5b, -1px 0 0 #d2d2d2, 0px 1px 0 #686868, 0 -1px 0 #000000, 1px 1px #7e7e7e, -1px -1px 0 #333333, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 }
 
 .bck-title-1:before {
