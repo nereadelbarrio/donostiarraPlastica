@@ -671,13 +671,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*título 1*/
 .bck-title-1 {
-    padding: 43px 20px 12px 20px;
     border-radius: 0 0 38px 38px;
-    color: #fff;
-    background-color: #F08B25;
-    font-size: 8rem;
-    position: relative;
-    top: -1px;
+    color: #F08B25;
     text-shadow: -1px 1px 0px #5b5b5b, -1px 0 0 #d2d2d2, 0px 1px 0 #686868, 0 -1px 0 #000000, 1px 1px #7e7e7e, -1px -1px 0 #333333, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
 }
 
@@ -728,15 +723,14 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }*/
 
 /*énfasis*/
-
 .bck-enfasis-1 {
-    padding: 19px 20px 12px 20px;
+    padding: 44px 20px 18px 20px;
     border-radius: 0 0 38px 38px;
     color: #fff;
     background-color: #F08B25;
     font-size: 8rem;
     position: relative;
-    top: -18px;
+    top: 0px;
     text-shadow: 3px 3px 2px #262e2a, -1px 0 0 #262e2a, 0 1px 0 #262e2a, 0 -1px 0 #262e2a, 1px 1px #262e2a, -1px -1px 0 #262e2a, 1px -1px 0 #262e2a, -1px 1px 0 #262e2a;
 }
 
