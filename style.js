@@ -17,6 +17,7 @@
 				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },
 				{ name: 'Título 03', element: 'h2', attributes: { 'class': 'bck-title bck-title-3'} },
 				{ name: 'Título 04', element: 'h2', attributes: { 'class': 'bck-title bck-title-4'} },
+				{ name: 'Título 05', element: 'h2', attributes: { 'class': 'bck-title bck-title-5'} },
 				
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -29,6 +30,8 @@
 										
 				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 
 				{ name: 'Tabla Color', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				
