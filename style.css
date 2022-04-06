@@ -1096,11 +1096,13 @@ counter-increment: bck-li-counter;
 }
 
 .bck-box.bck-box-3>.bck-title {
-font-weight: 700;
     text-align: center;
     color: #231F20;
 }
 
+.bck-box.bck-box-3>.bck-title p {
+    font-weight: 700;
+}
 
 .bck-box.bck-box-3>.bck-content {
     padding: 8px 18px 8px 19px
@@ -1122,11 +1124,13 @@ font-weight: 700;
 }
 
 .bck-box.bck-box-4>.bck-title {
-font-weight: 700;
     text-align: center;
     color: #231F20;
 }
 
+.bck-box.bck-box-4>.bck-title p {
+    font-weight: 700;
+}
 
 .bck-box.bck-box-4>.bck-content {
     padding: 8px 18px 8px 19px
