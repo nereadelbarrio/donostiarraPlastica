@@ -1,4 +1,4 @@
-/*estilo donostiarraPlasticaDemo_>NOWYOU*/
+/*estilo donostiarraPlasticaDemo_>HIghachievers*/
 
 @charset "UTF-8";
 @font-face {
@@ -662,15 +662,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-color: inherit
 }
 
-/*.bck-title {
-    color: #000
-}*/
 
-/*.bck-title {
-    border-bottom: none;
-}*/
 
 /*títulos*/
+.bck-title {
+    border-bottom: none;
+}
+
 /*título 1*/
 .bck-title-1 {
     color: #f08b25;
@@ -685,6 +683,11 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: -14px;
     text-shadow: -1px 1px 0px #343434, -1px 0 0 #343434, 0px 1px 0 #343434, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
 }
+
+.bck-title-1:before {
+    display: none;
+}
+
 
 /*título 2*/
 .bck-title-2 {
@@ -736,7 +739,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-color: #F08B25;
     font-size: 8rem;
     position: relative;
-    top: 15px;
+    top: -18px;
     text-shadow: 3px 3px 2px #262e2a, -1px 0 0 #262e2a, 0 1px 0 #262e2a, 0 -1px 0 #262e2a, 1px 1px #262e2a, -1px -1px 0 #262e2a, 1px -1px 0 #262e2a, -1px 1px 0 #262e2a;
 }
 
