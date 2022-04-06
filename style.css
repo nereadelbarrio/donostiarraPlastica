@@ -1032,7 +1032,10 @@ ctividad .content .workspace ul li .bck-ol-1,
 }
 
 .bck-box.bck-box-1>.bck-title p {
-    font-size: 26px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f08b25;
+    font-style: italic;
 }
 
 .bck-box.bck-box-1:before {
@@ -1040,7 +1043,7 @@ ctividad .content .workspace ul li .bck-ol-1,
 }
 
 .bck-box.bck-box-1:after {
-    display: n
+    display: none;
 }
 
 /**/
