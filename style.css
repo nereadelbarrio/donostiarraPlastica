@@ -391,9 +391,13 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
     line-height: 5rem
 }
 
+/*imágenes*/
 #actividad .content img {
-    margin-top: 20px;
-    vertical-align: bottom
+ -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #f08b25;
+    box-shadow: 3px 3px 2px 0px #707173;
 }
 
 li img {
@@ -568,306 +572,58 @@ li img {
     box-shadow: 2px 2px 2px undefinedpx #a8a3a2
 }
 
+/*títulos*/
+/*título 1*/
 .bck-title-1 {
-    padding: 3px 6px;
+    color: #f08b25;
+    font-size: 2rem;
+    background: none;
+    width: fit-content;
     position: relative;
-    font-family: Conv_ProximaNova-Bold;
-    font-size: 3.3rem;
-    color: #333
+    text-align: left;
+    padding: 7px 20px 7px 54px;
+    left: -97px;
+    font-weight: 700;
+    margin-top: -14px;
+    text-shadow: -1px 1px 0px #343434, -1px 0 0 #343434, 0px 1px 0 #343434, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
 }
 
-.bck-title-1:before {
-    counter-increment: title1;
-    content: counter(title1);
-    background-size: contain;
-    margin-right: 0;
-    padding: 9px 17px 13px 27px;
-    color: #fff;
-    background-image: url(images/donos_tec_u1_pg18_0001.png)
-}
-
-.bck-title-1:before,.bck-title-2:before {
-    background-repeat: no-repeat;
-    position: relative;
-    background-color: transparent
-}
-
-.bck-title-2:before {
-    content: " ";
-    padding: 14px 21px 1px 10px;
-    left: -2px;
-    top: 11px;
-    background-image: url(images/donos_tec_u1_pg19_0001.png)
-}
-
+/*título 2*/
 .bck-title-2 {
-    position: relative;
-    border-bottom: 2px solid #93d5f6;
-    font-weight: 700;
-    text-indent: -30px;
-    margin-left: 28px;
+     color: #fff;
     font-size: 2.3rem;
-    width: fit-content;
-    width: -moz-fit-content;
-    font-family: Conv_ProximaNova-Bold
+    text-align: left;
+    background-color: #F08B25;
+    padding: 7px 21px;
+    border-radius: 10px;
+    text-shadow: -1px 1px 0px #bababa, -1px 0 0 #bababa, 0px 1px 0 #bababa, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
+    box-shadow: 3px 3px 2px 0px #707173;
 }
 
+/*título 3*/
 .bck-title-3 {
-    background-color: #6daee0;
-    text-shadow: none;
-    text-align: center;
-    background-color: #85cee4;
-    border-top: 2px solid #4db4e7;
-    border-bottom: 2px solid #4db4e7;
     color: #fff;
-    padding-top: 5px;
-    font-size: 2.3rem
+    font-size: 2.3rem;
+    text-align: left;
+    background-color: #F7B577;
+    padding: 7px 21px;
+    border-radius: 10px;
+    text-shadow: -1px 1px 0px #bababa, -1px 0 0 #bababa, 0px 1px 0 #bababa, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
+    box-shadow: 3px 3px 2px 0px #707173;
 }
 
+/*título 4*/
 .bck-title-4 {
-    border-bottom: 2px solid #93d5f6;
-    font-weight: 700;
-    font-size: 2.3rem;
-    left: 27px;
-    width: fit-content;
-    width: -moz-fit-content
-}
-
-.bck-title-4,.bck-title-5 {
-    position: relative;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-title-5 {
-    background-image: url(images/donos_tec_u1_pg28_0001.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    font-size: 4rem;
-    margin-top: 0;
-    padding: 81px 18px 108px 125px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    color: #fff;
-    width: 119.3%
-}
-
-.bck-title-6 {
-    color: #d7b46a;
-    font-size: 2.3rem;
-    font-weight: 700;
-    margin-left: 25px
-}
-
-.bck-title-6,.bck-title-7 {
-    position: relative;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-title-7 {
-    background-image: url(images/donos_tec_u1_pg34_0001.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    font-size: 4rem;
-    margin-top: 0;
-    padding: 35px 18px 52px 93px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    color: #fff;
-    width: 119.3%
-}
-
-.bck-title-8:before {
-    content: " ";
-    padding: 14px 21px 1px 10px;
-    left: -2px;
-    top: 11px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-color: transparent;
-    background-image: url(images/donos_tec_u1_pg34_0002.png)
-}
-
-.bck-title-8 {
-    border-bottom: 2px solid #c9d4a0;
-    font-weight: 700;
-    text-indent: -30px;
-    margin-left: 28px;
-    font-size: 2.3rem;
-    width: fit-content;
-    width: -moz-fit-content
-}
-
-.bck-title-8,.bck-title-9 {
-    position: relative;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-title-9 {
-    background-image: url(images/donos_tec_u1_pg38_0001.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    font-size: 4rem;
-    margin-top: 0;
-    padding: 35px 18px 52px 93px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    color: #fff;
-    width: 119.3%
-}
-
-.bck-title-10 {
-    background-color: #f9d3e4;
-    font-weight: 600;
-    padding: 6px 12px;
-    font-size: 2.3rem;
-    width: fit-content;
-    width: -moz-fit-content;
-    margin-left: 24px;
-    border: 2px solid #f8cbe0;
-    border-radius: 20px
-}
-
-.bck-title-11:before {
-    content: " ";
-    padding: 14px 21px 1px 10px;
-    left: -2px;
-    top: 11px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-color: transparent;
-    background-image: url(images/1donos_tec_u1_pg36_0001.png)
-}
-
-.bck-title-11 {
-    position: relative;
-    border-bottom: 2px solid #f4aacc;
-    font-weight: 700;
-    text-indent: -30px;
-    margin-left: 28px;
-    font-size: 2.3rem;
-    width: fit-content;
-    width: -moz-fit-content;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-title-12 {
-    color: #404040;
+    color: #414141;
     font-size: 1.5rem;
     text-align: left;
-    font-weight: 500;
     position: relative;
-    left: 7px;
-    top: -20px;
-    font-family: Conv_AkzidenzGrotesk-Cond
+    line-height: 1.4em!important;
+    margin-top: 0px;
 }
 
-.bck-title-13:before {
-    content: " ";
-    padding: 0 75px 94px 94px;
-    left: 54px;
-    top: -10px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-color: transparent;
-    background-image: url(images/2donos_tec_u1_pg50_0001.png)
-}
 
-.bck-title-13 {
-    position: relative;
-    font-weight: 700;
-    text-indent: -168px;
-    margin-left: -97px;
-    font-size: 1.8rem;
-    width: 119.3%;
-    font-family: Conv_ProximaNova-Bold;
-    background-color: #ef5aab;
-    padding: 20px 20px 20px 150px;
-    COLOR: #fff;
-    top: -41px
-}
-
-.bck-title-14:after {
-    content: " ";
-    padding: 0 75px 60px 43px;
-    right: -668px;
-    top: -29px;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-image: url(images/2donos_tec_u1_pg51_0001.png);
-    position: relative
-}
-
-.bck-title-14 {
-    font-weight: 700;
-    margin-left: -97px;
-    font-size: 1.8rem;
-    background-color: #f6a0cf;
-    padding: 35px 20px 35px 99px;
-    color: #fff;
-    content: "EL RINCÓN del programador";
-    top: -41px
-}
-
-.bck-title-14,.bck-title-15 {
-    position: relative;
-    width: 119.3%;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-title-15 {
-    background-image: url(images/donos_tec_u1_pg53_0001.png);
-    background-repeat: no-repeat;
-    height: auto;
-    font-size: 3rem;
-    margin-top: 0;
-    padding: 36px 18px 40px 93px;
-    background-size: cover;
-    top: -20px;
-    left: -97px;
-    color: #d7b46a;
-    text-transform: uppercase
-}
-
-.bck-title-16 {
-    position: relative;
-    font-weight: 700;
-    font-size: 2.9rem;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-title-17 {
-    position: relative;
-    font-size: 2.5rem;
-    font-family: Conv_ProximaNova-Regular
-}
-
-.bck-title-18 {
-    background-image: url(images/donos_tec_u1_pg52_0001.png);
-    background-repeat: no-repeat;
-    height: auto;
-    font-size: 3rem;
-    margin-top: 0;
-    padding: 36px 18px 40px 93px;
-    background-size: cover;
-    top: -20px;
-    left: -97px;
-    color: #fff;
-    font-family: Conv_ProximaNova-Bold;
-    width: 119.3%
-}
-
-.bck-title-18,hr {
-    position: relative
-}
+/*hr*/
 
 hr {
     margin: 15px 0;
@@ -875,100 +631,22 @@ hr {
     top: -15px
 }
 
-.bck-enfasis {
-    font-size: 5rem;
-    color: inherit
-}
+
+/*énfasis*/
 
 .bck-enfasis-1 {
-    background-color: transparent;
-    background-image: url(images/donos_tec_u1_pg18_0001.png);
-    background-position: 50%;
-    top: 0
-}
-
-.bck-enfasis-1,.bck-enfasis-2 {
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: contain;
+    padding: 19px 20px 12px 20px;
+    border-radius: 0 0 38px 38px;
     color: #fff;
-    text-shadow: none;
-    font-size: 2.8rem;
-    font-family: Conv_MyriadPro-Bold;
-    padding: 9px 17px 13px 27px;
-    left: 0
+    background-color: #F08B25;
+    font-size: 8rem;
+    position: relative;
+    top: 15px;
+    text-shadow: 3px 3px 2px #262e2a, -1px 0 0 #262e2a, 0 1px 0 #262e2a, 0 -1px 0 #262e2a, 1px 1px #262e2a, -1px -1px 0 #262e2a, 1px -1px 0 #262e2a, -1px 1px 0 #262e2a;
 }
 
-.bck-enfasis-2 {
-    content: " ";
-    top: -3px;
-    background-image: url(images/donos_tec_u1_pg16_0001.png)
-}
 
-.bck-enfasis-3 {
-    background-color: #fff6a7;
-    padding: 9px 4px
-}
-
-.cke_contents .bck-enfasis- {
-    padding: 0
-}
-
-.bck-enfasis-4 {
-    background-color: #cae8f3;
-    padding: 9px 4px
-}
-
-.cke_contents .bck-enfasis-4 {
-    padding: 0
-}
-
-.bck-enfasis-5 {
-    font-weight: 700;
-    color: #007bc9
-}
-
-.bck-enfasis-6 {
-    font-weight: 700;
-    color: #e6007d
-}
-
-.bck-enfasis-7 {
-    font-weight: 700;
-    color: #7da42b
-}
-
-.bck-enfasis-8 {
-    font-family: Conv_Bleeker-Regular
-}
-
-.bck-enfasis-9 {
-    background-color: #ecd8b3;
-    padding: 9px 4px
-}
-
-.cke_contents .bck-enfasis-9 {
-    padding: 0
-}
-
-.bck-enfasis-10 {
-    font-weight: 700;
-    color: #ecd8b3
-}
-
-.bck-enfasis-11 {
-    text-align: center;
-    border-top: 2px solid #4db4e7;
-    border-bottom: 2px solid #4db4e7;
-    color: #333;
-    padding-top: 4px;
-    padding-bottom: 3px;
-    font-size: 1.9rem
-}
-
-.bck-enfasis-12 {
-    font-family: Conv_IndieFlower-Regular
-}
+/*listas desordenadas*/
 
 .texto_curso li {
     line-height: 1.8em!important
@@ -993,87 +671,36 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-bottom: 10px
 }
 
-#actividad .content .texto_curso .bck-ul-1 li,#actividad .content .workspace ul li .bck-ul-1 li,#actividad .popover-background.shown .popover-content .bck-ul-1 li {
+/*lista desordenada 1*/
+#actividad .content .texto_curso .bck-ul-1 li,
+#actividad .content .workspace ul li .bck-ul-1 li,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li {
     font-size: 2rem;
     font-weight: 100;
     margin-left: 5px
 }
 
-#actividad .content .texto_curso .bck-ul-1 li:before,#actividad .content .workspace ul li .bck-ul-1 li:before {
+#actividad .content .texto_curso .bck-ul-1 li:before,
+#actividad .content .workspace ul li .bck-ul-1 li:before {
     content: "";
-    height: 5px;
-    width: 5px;
-    background-color: #007bd1;
-    border-radius: 10px;
-    margin-top: 14px;
-    margin-left: 11px
+    height: 7px;
+    width: 7px;
+    background-color: #414141;
+    position: absolute;
+    top: 2px;
+    border-radius: 100%;
+    left: auto;
+    margin: 13px 0 0 -15px;
 }
 
-#actividad .content .texto_curso .bck-ul-2 li,#actividad .content .workspace ul li .bck-ul-2 li,#actividad .popover-background.shown .popover-content .bck-ul-2 li {
-    font-size: 2rem;
-    font-weight: 100;
-    margin-left: 5px
-}
 
-#actividad .content .texto_curso .bck-ul-2 li:before,#actividad .content .workspace ul li .bck-ul-2 li:before,#actividad .popover-background.shown .popover-content .bck-ul-2 li:before {
-    content: "";
-    height: 5px;
-    width: 5px;
-    background-color: #333;
-    border-radius: 10px;
-    margin-top: 14px;
-    margin-left: 11px
-}
+/*listas ordenadas*/
 
-#actividad .content .texto_curso .bck-ul-3 li,#actividad .content .workspace ul li .bck-ul-3 li,#actividad .popover-background.shown .popover-content .bck-ul-3 li {
-    font-size: 2rem;
-    font-weight: 100;
-    margin-left: 5px
-}
-
-#actividad .content .texto_curso .bck-ul-3 li:before,#actividad .content .workspace ul li .bck-ul-3 li:before,#actividad .popover-background.shown .popover-content .bck-ul-3 li:before {
-    content: "";
-    height: 5px;
-    width: 5px;
-    background-color: #d7b46a;
-    border-radius: 10px;
-    margin-top: 14px;
-    margin-left: 11px
-}
-
-#actividad .content .texto_curso .bck-ul-4 li,#actividad .content .workspace ul li .bck-ul-4 li,#actividad .popover-background.shown .popover-content .bck-ul-4 li {
-    font-size: 2rem;
-    font-weight: 100;
-    margin-left: 5px
-}
-
-#actividad .content .texto_curso .bck-ul-4 li:before,#actividad .content .workspace ul li .bck-ul-4 li:before,#actividad .popover-background.shown .popover-content .bck-ul-4 li:before {
-    content: "";
-    height: 5px;
-    width: 5px;
-    background-color: #a3c231;
-    border-radius: 10px;
-    margin-top: 14px;
-    margin-left: 11px
-}
-
-#actividad .content .texto_curso .bck-ul-5 li,#actividad .content .workspace ul li .bck-ul-5 li,#actividad .popover-background.shown .popover-content .bck-ul-5 li {
-    font-size: 2rem;
-    font-weight: 100;
-    margin-left: 5px
-}
-
-#actividad .content .texto_curso .bck-ul-5 li:before,#actividad .content .workspace ul li .bck-ul-5 li:before,#actividad .popover-background.shown .popover-content .bck-ul-5 li:before {
-    content: "";
-    height: 5px;
-    width: 5px;
-    background-color: #e6007d;
-    border-radius: 10px;
-    margin-top: 14px;
-    margin-left: 11px
-}
-
-#actividad .content .cke_contents .bck-ol li:before,#actividad .content .texto_curso .bck-ol li:before,#actividad .content .workspace ul li .bck-ol li:before,#actividad .popover-content .bck-ol li:before {
+/*lista ordenada 1*/
+#actividad .content .cke_contents .bck-ol li:before,
+#actividad .content .texto_curso .bck-ol li:before,
+#actividad .content .workspace ul li .bck-ol li:before,
+#actividad .popover-content .bck-ol li:before {
     position: relative;
     text-align: center;
     margin-left: -10px
@@ -1083,12 +710,18 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: 0
 }
 
-#actividad .content .cke_contents .bck-ol-1,#actividad .content .texto_curso .bck-ol-1,#actividad .content .workspace ul li .bck-ol-1,#actividad .popover-content .bck-ol-1 {
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+ctividad .content .workspace ul li .bck-ol-1,
+#actividad .popover-content .bck-ol-1 {
     list-style-type: none;
     counter-reset: bck-li-counter
 }
 
-#actividad .content .cke_contents .bck-ol-1 li,#actividad .content .texto_curso .bck-ol-1 li,#actividad .content .workspace ul li .bck-ol-1 li,#actividad .popover-content .bck-ol-1 li {
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
@@ -1100,7 +733,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     line-height: 1.6em!important
 }
 
-#actividad .content .cke_contents .bck-ol-1 li:before,#actividad .content .texto_curso .bck-ol-1 li:before,#actividad .content .workspace ul li .bck-ol-1 li:before,#actividad .popover-content .bck-ol-1 li:before {
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before {
     content: counter(bck-li-counter) ". ";
     position: absolute;
     margin-left: -30px;
@@ -1114,12 +750,18 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 30px
 }
 
-#actividad .content .cke_contents .bck-ol-2,#actividad .content .texto_curso .bck-ol-2,#actividad .content .workspace ul li .bck-ol-2,#actividad .popover-content .bck-ol-2 {
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2,
+#actividad .popover-content .bck-ol-2 {
     list-style-type: none;
     counter-reset: bck-li-counter
 }
 
-#actividad .content .cke_contents .bck-ol-2 li,#actividad .content .texto_curso .bck-ol-2 li,#actividad .content .workspace ul li .bck-ol-2 li,#actividad .popover-content .bck-ol-2 li {
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
@@ -1131,7 +773,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     line-height: 1.6em!important
 }
 
-#actividad .content .cke_contents ol.bck-ol-2 li:before,#actividad .content .texto_curso ol.bck-ol-2 li:before,#actividad .content .workspace ul li ol.bck-ol-2 li:before,#actividad .popover-content ol.bck-ol-2 li:before {
+#actividad .content .cke_contents ol.bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
+#actividad .content .workspace ul li ol.bck-ol-2 li:before,
+#actividad .popover-content ol.bck-ol-2 li:before {
     content: counter(bck-li-counter) ". ";
     position: absolute;
     margin-left: -26px;
@@ -1142,181 +787,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: Conv_ProximaNova-Bold
 }
 
-#actividad .content .cke_contents .bck-ol-3,#actividad .content .texto_curso .bck-ol-3,#actividad .content .workspace ul li .bck-ol-3,#actividad .popover-content .bck-ol-3 {
-    list-style-type: none;
-    counter-reset: bck-li-counter;
-    margin-left: 20px
-}
 
-#actividad .content .cke_contents .bck-ol-3 li,#actividad .content .texto_curso .bck-ol-3 li,#actividad .content .workspace ul li .bck-ol-3 li,#actividad .popover-content .bck-ol-3 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    margin-left: 0
-}
 
-#actividad .content .cke_contents .bck-ol-3 li:before,#actividad .content .texto_curso ol.bck-ol-3 li:before,#actividad .content .workspace ul li ol.bck-ol-3 li:before,#actividad .popover-content ol.bck-ol-3 li:before {
-    content: counter(bck-li-counter,lower-alpha) ")";
-    position: absolute;
-    text-align: center;
-    color: #d7b46a;
-    line-height: normal;
-    margin-left: -25px;
-    line-height: unset;
-    font-weight: 600;
-    margin-top: 0;
-    font-size: 1.9rem
-}
-
-#actividad .content .cke_contents .bck-ol-4,#actividad .content .texto_curso .bck-ol-4,#actividad .content .workspace ul li .bck-ol-4 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-4 li,#actividad .content .texto_curso .bck-ol-4 li,#actividad .content .workspace ul li .bck-ol-4 li,#actividad .popover-content .bck-ol-4 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    margin-left: 9px;
-    margin-top: 10px
-}
-
-#actividad .content .cke_contents .bck-ol-4 li:before,#actividad .content .texto_curso .bck-ol-4 li:before,#actividad .content .workspace ul li .bck-ol-4 li:before,#actividad .popover-content .bck-ol-4 li:before {
-    content: counter(bck-li-counter);
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    color: #fff;
-    background: #85cee4;
-    margin-left: -36px;
-    margin-right: 0;
-    border-radius: 100%;
-    line-height: normal;
-    font-size: 1.9rem;
-    font-weight: 700;
-    padding: 5px 0 0 1px;
-    text-align: center;
-    top: 3px
-}
-
-#actividad .content .cke_contents .bck-ol-5,#actividad .content .texto_curso .bck-ol-5,#actividad .content .workspace ul li .bck-ol-5 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-5 li,#actividad .content .texto_curso .bck-ol-5 li,#actividad .content .workspace ul li .bck-ol-5 li,#actividad .popover-content .bck-ol-5 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    margin-left: 9px;
-    margin-top: 10px
-}
-
-#actividad .content .cke_contents .bck-ol-5 li:before,#actividad .content .texto_curso .bck-ol-5 li:before,#actividad .content .workspace ul li .bck-ol-5 li:before,#actividad .popover-content .bck-ol-5 li:before {
-    content: counter(bck-li-counter);
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    color: #fff;
-    background: #9cc21c;
-    margin-left: -36px;
-    margin-right: 0;
-    border-radius: 100%;
-    line-height: normal;
-    font-size: 1.9rem;
-    font-weight: 700;
-    padding: 5px 0 0 1px;
-    text-align: center;
-    top: 3px
-}
-
-#actividad .content .cke_contents .bck-ol-6,#actividad .content .texto_curso .bck-ol-6,#actividad .content .workspace ul li .bck-ol-6,#actividad .popover-content .bck-ol-6 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-6 li,#actividad .content .texto_curso .bck-ol-6 li,#actividad .content .workspace ul li .bck-ol-6 li,#actividad .popover-content .bck-ol-6 li,z #actividad .content .cke_contents .bck-ol-6 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 500;
-    margin-left: 7px;
-    margin-top: 10px;
-    font-size: 2rem;
-    line-height: 1.6em!important
-}
-
-#actividad .content .cke_contents ol.bck-ol-6 li:before,#actividad .content .texto_curso ol.bck-ol-6 li:before,#actividad .content .workspace ul li ol.bck-ol-6 li:before,#actividad .popover-content ol.bck-ol-6 li:before {
-    content: counter(bck-li-counter) ". ";
-    position: absolute;
-    margin-left: -26px;
-    color: #7da42b;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-top: .2px;
-    font-family: Conv_ProximaNova-Bold
-}
-
-#actividad .content .cke_contents .bck-ol-7,#actividad .content .texto_curso .bck-ol-7,#actividad .content .workspace ul li .bck-ol-7,#actividad .popover-content .bck-ol-7 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-7 li,#actividad .content .texto_curso .bck-ol-7 li,#actividad .content .workspace ul li .bck-ol-7 li,#actividad .popover-content .bck-ol-7 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 500;
-    margin-left: 7px;
-    margin-top: 10px;
-    font-size: 2rem;
-    line-height: 1.6em!important
-}
-
-#actividad .content .cke_contents ol.bck-ol-7 li:before,#actividad .content .texto_curso ol.bck-ol-7 li:before,#actividad .content .workspace ul li ol.bck-ol-7 li:before,#actividad .popover-content ol.bck-ol-7 li:before {
-    content: counter(bck-li-counter) ". ";
-    position: absolute;
-    margin-left: -26px;
-    color: #e6007d;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-top: .2px;
-    font-family: Conv_ProximaNova-Bold
-}
-
-#actividad .content .cke_contents .bck-ol-8,#actividad .content .texto_curso .bck-ol-8,#actividad .content .workspace ul li .bck-ol-8,#actividad .popover-content .bck-ol-8 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-8 li,#actividad .content .texto_curso .bck-ol-8 li,#actividad .content .workspace ul li .bck-ol-8 li,#actividad .popover-content .bck-ol-8 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 500;
-    margin-left: 7px;
-    margin-top: 10px;
-    font-size: 2rem;
-    line-height: 1.6em!important
-}
-
-#actividad .content .cke_contents ol.bck-ol-8 li:before,#actividad .content .texto_curso ol.bck-ol-8 li:before,#actividad .content .workspace ul li ol.bck-ol-8 li:before,#actividad .popover-content ol.bck-ol-8 li:before {
-    content: counter(bck-li-counter) ". ";
-    position: absolute;
-    margin-left: -26px;
-    color: #333;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-top: .2px;
-    font-family: Conv_ProximaNova-Bold
-}
-
+/*cajas*/
 .bck-box {
     background: transparent
 }
@@ -1344,52 +817,34 @@ body:not(.edit) .bck-box p {
     padding: 10px 14px 10px 10px
 }
 
+/*caja 1*/
 .bck-box.bck-box-1 {
-    background-color: #fff;
-    border: 3px solid #f4e8d1;
-    border-right: none;
-    border-bottom: none;
-    border-radius: 20px;
-    padding: 20px 20px 0;
+    margin-top: 5px;
+    padding: 5px;
+    background: #FDF1E3;
+    box-shadow: 3px 3px 2px 0px #707173;
+    border-radius: 10px;
+    border: 2px solid #f38d25;
     margin-bottom: 20px;
-    box-shadow: none
-}
-
-.bck-box.bck-box-1:before {
-    display: none
 }
 
 .bck-box.bck-box-1 .bck-title {
-    color: #e5ba6b;
     position: relative;
-    top: -88px;
-    left: 20px;
-    font-family: Conv_ProximaNova-Bold;
-    text-transform: uppercase;
-    letter-spacing: 3px
+    top: 2px;
+    left: 0;
+    padding-left: 19px;
+    font-family: Conv_ProximaNova-Bold
+}
+
+.bck-box.bck-box-1 .bck-title p {
+    font-size: 2.2rem
 }
 
 .bck-box.bck-box-1 .bck-content {
-    position: relative;
-    top: -55px;
-    padding-left: 10px
+    padding: 8px 18px 8px 19px
 }
 
-.bck-box.bck-box-1 .bck-title:before {
-    content: " ";
-    padding: 58px 61px 0;
-    left: -67px;
-    top: 64px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-color: transparent;
-    background-image: url(images/donos_tec_u1_pg21_0002.png)
-}
-
-.bck-box.bck-box-1:after {
-    display: none
-}
-
+/*caja 2*/
 .bck-box.bck-box-2 {
     background-color: #fff;
     border: 3px solid #539bcf;
@@ -1707,28 +1162,7 @@ body:not(.edit) .bck-box p {
     background-image: url(images/donos_tec_u1_pg48_00010.png)
 }
 
-.bck-box.bck-box-10 {
-    margin-top: 15px;
-    background: transparent;
-    border-radius: 15px;
-    border: 3px solid #f8c9de
-}
 
-.bck-box.bck-box-10 .bck-title {
-    position: relative;
-    top: 2px;
-    left: 0;
-    padding-left: 19px;
-    font-family: Conv_ProximaNova-Bold
-}
-
-.bck-box.bck-box-10 .bck-title p {
-    font-size: 2.2rem
-}
-
-.bck-box.bck-box-10 .bck-content {
-    padding: 8px 18px 8px 19px
-}
 
 .bck-box.bck-box-11 {
     background: transparent;
