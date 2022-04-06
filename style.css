@@ -827,7 +827,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-radius: 50%;
     position: absolute;
     margin-top: .6em;
-    margin-left: 6px;
+    margin-left: -16px;
 }
 
 /*lista desordenada 1*/
@@ -1010,7 +1010,7 @@ counter-increment: bck-li-counter;
     background: #FDF1E3;
     box-shadow: 3px 3px 2px 0px #707173;
     border-radius: 10px;
-    border: 2px solid #f38d25;
+    border: 3px solid #f38d25;
     margin-bottom: 20px;
 }
 
@@ -1050,9 +1050,9 @@ counter-increment: bck-li-counter;
     margin-top: 5px;
     padding: 5px;
     background: #FDF1E3;
-    box-shadow: 3px 3px 2px 0px #707173;
+    box-shadow: 3px 3px 2px 0px #FEF5E4;
     border-radius: 20px;
-    border: 2px solid #F08B25;
+    border: 3px solid #F08B25;
     margin-bottom: 20px;
 }
 
@@ -1061,6 +1061,11 @@ counter-increment: bck-li-counter;
     top: 2px;
     left: 0;
     padding-left: 19px;
+    color: inherit;
+}
+
+.bck-box.bck-box-2 .bck-title:before {
+    display: none;
 }
 
 .bck-box.bck-box-2>.bck-content {
