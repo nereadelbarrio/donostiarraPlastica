@@ -190,9 +190,9 @@ body {
 }
 
 .texto_curso p {
-    line-height: 1.8!important;
+    line-height: 1.5!important;
     margin-bottom: 20px;
-    font-size: 1.9rem;
+    font-size: 10px;
     font-weight: 500
 }
 
@@ -708,11 +708,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*título 4*/
 .bck-title-4 {
     color: #414141;
-    font-size: 1.5rem;
-    text-align: left;
-    position: relative;
-    line-height: 1.4em!important;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.6em!important;
     margin-top: 0px;
+    font-family: 'Gill Sans';
+    font-weight: 500;
 }
 
 
