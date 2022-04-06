@@ -640,9 +640,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 
 body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-color: transparent;
-    color: #274CA1;
-    font-weight: 400;
-    text-decoration: underline;
+
 }
 
 #actividad .content img.player,
