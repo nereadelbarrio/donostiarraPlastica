@@ -1,143 +1,154 @@
 @charset "UTF-8";
 @font-face {
-    font-family: Conv_AkzidenzGrotesk-BoldCond;
-    src: url(fonts/AkzidenzGrotesk-BoldCond.eot);
-    src: local("☺"),url(fonts/AkzidenzGrotesk-BoldCond.woff) format("woff"),url(fonts/AkzidenzGrotesk-BoldCond.ttf) format("truetype"),url(fonts/AkzidenzGrotesk-BoldCond.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Minion Pro';
+    src: url('fonts/MinionPro-Regular.eot');
+    src: url('fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MinionPro-Regular.woff2') format('woff2'),
+        url('fonts/MinionPro-Regular.woff') format('woff'),
+        url('fonts/MinionPro-Regular.ttf') format('truetype'),
+        url('fonts/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_AkzidenzGrotesk-Cond;
-    src: url(fonts/AkzidenzGrotesk-Cond.eot);
-    src: local("☺"),url(fonts/AkzidenzGrotesk-Cond.woff) format("woff"),url(fonts/AkzidenzGrotesk-Cond.ttf) format("truetype"),url(fonts/AkzidenzGrotesk-Cond.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Lato';
+    src: url('fonts/Lato-Bold.eot');
+    src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato-Bold.woff2') format('woff2'),
+        url('fonts/Lato-Bold.woff') format('woff'),
+        url('fonts/Lato-Bold.ttf') format('truetype'),
+        url('fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_AkzidenzGrotesk-MediumCond;
-    src: url(fonts/AkzidenzGrotesk-MediumCond.eot);
-    src: local("☺"),url(fonts/AkzidenzGrotesk-MediumCond.woff) format("woff"),url(fonts/AkzidenzGrotesk-MediumCond.ttf) format("truetype"),url(fonts/AkzidenzGrotesk-MediumCond.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Consolas';
+    src: url('fonts/Consolas-Bold.eot');
+    src: url('fonts/Consolas-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Consolas-Bold.woff2') format('woff2'),
+        url('fonts/Consolas-Bold.woff') format('woff'),
+        url('fonts/Consolas-Bold.ttf') format('truetype'),
+        url('fonts/Consolas-Bold.svg#Consolas-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_Bleeker-Regular;
-    src: url(fonts/Bleeker-Regular.eot);
-    src: local("☺"),url(fonts/Bleeker-Regular.woff) format("woff"),url(fonts/Bleeker-Regular.ttf) format("truetype"),url(fonts/Bleeker-Regular.svg) format("svg");
+    font-family: 'Gill Sans';
+    src: url('fonts/GillSans-Italic.eot');
+    src: url('fonts/GillSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GillSans-Italic.woff2') format('woff2'),
+        url('fonts/GillSans-Italic.woff') format('woff'),
+        url('fonts/GillSans-Italic.ttf') format('truetype'),
+        url('fonts/GillSans-Italic.svg#GillSans-Italic') format('svg');
     font-weight: 400;
-    font-style: normal
+    font-style: italic;
 }
 
 @font-face {
-    font-family: Conv_IndieFlower-Regular;
-    src: url(fonts/IndieFlower-Regular.eot);
-    src: local("☺"),url(fonts/IndieFlower-Regular.woff) format("woff"),url(fonts/IndieFlower-Regular.ttf) format("truetype"),url(fonts/IndieFlower-Regular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Gill Sans';
+    src: url('fonts/GillSans-Regular.eot');
+    src: url('fonts/GillSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GillSans-Regular.woff2') format('woff2'),
+        url('fonts/GillSans-Regular.woff') format('woff'),
+        url('fonts/GillSans-Regular.ttf') format('truetype'),
+        url('fonts/GillSans-Regular.svg#GillSans-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_MinionPro-Regular;
-    src: url(fonts/MinionPro-Regular.eot);
-    src: local("☺"),url(fonts/MinionPro-Regular.woff) format("woff"),url(fonts/MinionPro-Regular.ttf) format("truetype"),url(fonts/MinionPro-Regular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-It.eot');
+    src: url('fonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-It.woff2') format('woff2'),
+        url('fonts/MyriadPro-It.woff') format('woff'),
+        url('fonts/MyriadPro-It.ttf') format('truetype'),
+        url('fonts/MyriadPro-It.svg#MyriadPro-It') format('svg');
+    font-weight: 500;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: Conv_MyriadPro-Bold;
-    src: url(fonts/MyriadPro-Bold.eot);
-    src: local("☺"),url(fonts/MyriadPro-Bold.woff) format("woff"),url(fonts/MyriadPro-Bold.ttf) format("truetype"),url(fonts/MyriadPro-Bold.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-BoldCond.eot');
+    src: url('fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-BoldCond.woff2') format('woff2'),
+        url('fonts/MyriadPro-BoldCond.woff') format('woff'),
+        url('fonts/MyriadPro-BoldCond.ttf') format('truetype'),
+        url('fonts/MyriadPro-BoldCond.svg#MyriadPro-BoldCond') format('svg');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_MyriadPro-Regular;
-    src: url(fonts/MyriadPro-Regular.eot);
-    src: local("☺"),url(fonts/MyriadPro-Regular.woff) format("woff"),url(fonts/MyriadPro-Regular.ttf) format("truetype"),url(fonts/MyriadPro-Regular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Bold.eot');
+    src: url('fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('fonts/MyriadPro-Bold.woff') format('woff'),
+        url('fonts/MyriadPro-Bold.ttf') format('truetype'),
+        url('fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_ProximaNova-Black;
-    src: url(fonts/ProximaNova-Black.eot);
-    src: local("☺"),url(fonts/ProximaNova-Black.woff) format("woff"),url(fonts/ProximaNova-Black.ttf) format("truetype"),url(fonts/ProximaNova-Black.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Lato';
+    src: url('fonts/Lato-Light.eot');
+    src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato-Light.woff2') format('woff2'),
+        url('fonts/Lato-Light.woff') format('woff'),
+        url('fonts/Lato-Light.ttf') format('truetype'),
+        url('fonts/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_ProximaNova-Bold;
-    src: url(fonts/ProximaNova-Bold.eot);
-    src: local("☺"),url(fonts/ProximaNova-Bold.woff) format("woff"),url(fonts/ProximaNova-Bold.ttf) format("truetype"),url(fonts/ProximaNova-Bold.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Black.eot');
+    src: url('fonts/MyriadPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-Black.woff2') format('woff2'),
+        url('fonts/MyriadPro-Black.woff') format('woff'),
+        url('fonts/MyriadPro-Black.ttf') format('truetype'),
+        url('fonts/MyriadPro-Black.svg#MyriadPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_ProximaNova-BoldIt;
-    src: url(fonts/ProximaNova-BoldIt.eot);
-    src: local("☺"),url(fonts/ProximaNova-BoldIt.woff) format("woff"),url(fonts/ProximaNova-BoldIt.ttf) format("truetype"),url(fonts/ProximaNova-BoldIt.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-BoldIt.eot');
+    src: url('fonts/MyriadPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-BoldIt.woff2') format('woff2'),
+        url('fonts/MyriadPro-BoldIt.woff') format('woff'),
+        url('fonts/MyriadPro-BoldIt.ttf') format('truetype'),
+        url('fonts/MyriadPro-BoldIt.svg#MyriadPro-BoldIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: Conv_ProximaNova-Extrabld;
-    src: url(fonts/ProximaNova-Extrabld.eot);
-    src: local("☺"),url(fonts/ProximaNova-Extrabld.woff) format("woff"),url(fonts/ProximaNova-Extrabld.ttf) format("truetype"),url(fonts/ProximaNova-Extrabld.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.eot');
+    src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadPro-Regular.woff') format('woff'),
+        url('fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@font-face {
-    font-family: Conv_ProximaNova-Regular;
-    src: url(fonts/ProximaNova-Regular.eot);
-    src: local("☺"),url(fonts/ProximaNova-Regular.woff) format("woff"),url(fonts/ProximaNova-Regular.ttf) format("truetype"),url(fonts/ProximaNova-Regular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
 
-@font-face {
-    font-family: Conv_ProximaNova-RegularIt;
-    src: url(fonts/ProximaNova-RegularIt.eot);
-    src: local("☺"),url(fonts/ProximaNova-RegularIt.woff) format("woff"),url(fonts/ProximaNova-RegularIt.ttf) format("truetype"),url(fonts/ProximaNova-RegularIt.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_ProximaNova-Semibold;
-    src: url(fonts/ProximaNova-Semibold.eot);
-    src: local("☺"),url(fonts/ProximaNova-Semibold.woff) format("woff"),url(fonts/ProximaNova-Semibold.ttf) format("truetype"),url(fonts/ProximaNova-Semibold.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_ProximaNova-SemiboldIt;
-    src: url(fonts/ProximaNova-SemiboldIt.eot);
-    src: local("☺"),url(fonts/ProximaNova-SemiboldIt.woff) format("woff"),url(fonts/ProximaNova-SemiboldIt.ttf) format("truetype"),url(fonts/ProximaNova-SemiboldIt.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: satisfyregular;
-    src: url(satisfy-regular-webfont.woff2) format("woff2"),url(satisfy-regular-webfont.woff) format("woff");
-    font-weight: 400;
-    font-style: normal
-}
 
 body {
     font-size: 16px;
     font-weight: 500;
-    font-family: Conv_ProximaNova-Regular
+    font-family: 'Myriad Pro';
 }
 
 .body_clase .content-wrapper,.body_clase.view-mode .content-wrapper {
@@ -145,9 +156,7 @@ body {
     font-weight: 300
 }
 
-body {
-    counter-reset: title1
-}
+
 
 .slide-wrapper {
     text-align: left
@@ -161,7 +170,8 @@ body {
     background: #fff
 }
 
-#actividad .content .header,#actividad .content .header .chapter,#actividad .content .header .title img {
+#actividad .content .header,#actividad .content .header .chapter,
+#actividad .content .header .title img {
     display: none
 }
 
