@@ -858,7 +858,71 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin: 13px 0 0 -15px;
 }
 
+/*lista desordenada 2*/
+#actividad .content .texto_curso .bck-ul-2 li,
+#actividad .content .workspace ul li .bck-ul-2 li,
+#actividad .popover-background.shown .popover-content .bck-ul-2 li {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 5px
+}
 
+#actividad .content .texto_curso .bck-ul-2 li:before,
+#actividad .content .workspace ul li .bck-ul-2 li:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #EB71AC;
+    position: absolute;
+    top: 2px;
+    border-radius: 100%;
+    left: auto;
+    margin: 13px 0 0 -15px;
+}
+
+/*lista desordenada 3*/
+#actividad .content .texto_curso .bck-ul-3 li,
+#actividad .content .workspace ul li .bck-ul-3 li,
+#actividad .popover-background.shown .popover-content .bck-ul-3 li {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 5px
+}
+
+#actividad .content .texto_curso .bck-ul-3 li:before,
+#actividad .content .workspace ul li .bck-ul-3 li:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #F08B25;
+    position: absolute;
+    top: 2px;
+    border-radius: 100%;
+    left: auto;
+    margin: 13px 0 0 -15px;
+}
+
+/*lista desordenada 4*/
+#actividad .content .texto_curso .bck-ul-4 li,
+#actividad .content .workspace ul li .bck-ul-4 li,
+#actividad .popover-background.shown .popover-content .bck-ul-4 li {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 5px
+}
+
+#actividad .content .texto_curso .bck-ul-4 li:before,
+#actividad .content .workspace ul li .bck-ul-4 li:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #9EBC3F;
+    position: absolute;
+    top: 2px;
+    border-radius: 100%;
+    left: auto;
+    margin: 13px 0 0 -15px;
+}
 
 /*listas ordenadas*/
 
@@ -992,6 +1056,86 @@ counter-increment: bck-li-counter;
     font-weight: 400;
     margin-top: -2px;
     font-size: 2rem;
+}
+
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+ctividad .content .workspace ul li .bck-ol-3,
+#actividad .popover-content .bck-ol-3 {
+    list-style-type: none;
+    counter-reset: bck-li-counter
+}
+
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 2rem;
+    line-height: 1.6em!important;
+    font-family: 'Myriad Pro';
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:before, 
+#actividad .content .texto_curso .bck-ol-3 li:before, 
+#actividad .content .workspace ul li .bck-ol-3 li:before, 
+#actividad .popover-content .bck-ol-3 li:before {
+    content: counter(bck-li-counter) ". ";
+    position: absolute;
+    margin-left: -33px;
+    color: #EB71AC;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0px;
+    font-family: 'Myriad Pro';
+    top: 0;
+    left: 0;
+}
+
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
+ctividad .content .workspace ul li .bck-ol-4,
+#actividad .popover-content .bck-ol-4 {
+    list-style-type: none;
+    counter-reset: bck-li-counter
+}
+
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 2rem;
+    line-height: 1.6em!important;
+    font-family: 'Myriad Pro';
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before, 
+#actividad .content .texto_curso .bck-ol-4 li:before, 
+#actividad .content .workspace ul li .bck-ol-4 li:before, 
+#actividad .popover-content .bck-ol-4 li:before {
+    content: counter(bck-li-counter) ". ";
+    position: absolute;
+    margin-left: -33px;
+    color: #9EBC3F;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0px;
+    font-family: 'Myriad Pro';
+    top: 0;
+    left: 0;
 }
 
 /*cajas*/
@@ -1565,7 +1709,7 @@ table.bck-table-4 td.bck-td-2 {
 
 /*título 3*/
 .unittag_rosa .bck-title-3 {
-    background-color: #F7B577;
+    background-color: #F2A8CB;
 }
 
 
