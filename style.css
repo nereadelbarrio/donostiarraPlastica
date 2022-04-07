@@ -394,7 +394,7 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
     height: 40px
 }
 
-/*logo*/
+/*logo
 .content_type_curso_donostiarraPlasticaDemo .libro-left ul li .title:before {
     content: "";
     background-size: contain;
@@ -426,7 +426,7 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
 
 .content_type_curso_donostiarraPlasticaDemo.content_type_clase_donostiarraPlasticaDemo .libro-left ul li .title:before {
     opacity: 0;
-}
+}*/
 
 .donostiarraPlasticaDemo-navbar .copyright {
 display: none;
