@@ -34,8 +34,11 @@
 				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 
 				{ name: 'Tabla naranja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
+				{ name: 'Tabla rosa', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				
-				{ name: 'Celda Color', element: 'td', attributes: { 'class': 'bck-td-2'} },
+				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2'} },
+				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3'} },
+				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td-4'} },
 				
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 
