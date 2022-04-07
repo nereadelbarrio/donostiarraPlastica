@@ -1768,6 +1768,7 @@ table.bck-table-4 td.bck-td-2 {
 /*caja 1*/
 .unittag_rosa .bck-box.bck-box-1 {
     background: #FDF1F6;
+    border: 3px solid #EB71AC;
 }
 
 .unittag_rosa .bck-box.bck-box-1>.bck-title p {
