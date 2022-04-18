@@ -656,6 +656,16 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-color: inherit
 }
 
+/*pie de imagenn*/
+.bck-i-fullscreen figcaption {
+    color: #414141;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.6em!important;
+    margin-top: 0px;
+    font-family: 'Gill Sans';
+    font-weight: 500;
+}
 
 
 /*títulos*/
@@ -722,7 +732,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*título 6*/
 .bck-title-6 {
     color: #fff;
-    font-size: 5.3rem;
+    font-size: 5.8rem;
     text-shadow: -1px 1px 0px #bababa, -1px 0 0 #bababa, 0px 1px 0 #bababa, 0 -1px 0 #343434, 1px 1px #343434, -1px -1px 0 #343434, 1px -1px 0 #343434, -1px 1px 0 #343434;
 }
 
