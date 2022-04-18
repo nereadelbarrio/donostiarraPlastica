@@ -665,6 +665,11 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: 0px;
     font-family: 'Gill Sans';
     font-weight: 500;
+    border-bottom: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: none;
 }
 
 
