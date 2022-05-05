@@ -896,7 +896,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 7px;
     background-color: #414141;
     position: absolute;
-    top: 2px;
+    top: 0px;
     border-radius: 100%;
     left: auto;
     margin: 13px 0 0 -15px;
@@ -918,7 +918,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 7px;
     background-color: #EB71AC;
     position: absolute;
-    top: 2px;
+    top: 0px;
     border-radius: 100%;
     left: auto;
     margin: 13px 0 0 -15px;
@@ -962,7 +962,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 7px;
     background-color: #9EBC3F;
     position: absolute;
-    top: 2px;
+    top: 0px;
     border-radius: 100%;
     left: auto;
     margin: 13px 0 0 -15px;
