@@ -415,7 +415,7 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
     top: 12px;
     background-image: url(images/donostiarraPlasticaDemo_logo.png) !important;
     position: fixed;
-    width: 100px;
+    width: 150px;
     height: 23px;
     background-repeat: no-repeat;
     left: 50%;
@@ -426,15 +426,15 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
 .navbar-content .logo-publisher {
     display: inline-block;
     position: absolute;
-    top: -5px;
-    left: 0;
-    width: 98px;
-    height: 44px;
+    top: -15px;
+    left: 8px;
+    width: 150px;
+    height: 65px;
     background: url(images/donostiarraPlasticaDemo_logo.png) 0 0 no-repeat;
     -webkit-background-size: contain;
-       -moz-background-size: contain;
-         -o-background-size: contain;
-            background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     background-position: center center;
 }
 
