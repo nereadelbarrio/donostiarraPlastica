@@ -1538,6 +1538,16 @@ table.bck-table-3 td {
     border-color: #9EBC3F;
 }
 
+/*TABLA 4*/ 
+table.bck-table-4 {
+    border: 2px solid #E82426;
+}
+
+
+table.bck-table-4 td {
+    border-color: #E82426;
+}
+
 /*CELDA 2*/
 table td.bck-td-2 {
     background-color: #F4B6D3;
@@ -1559,6 +1569,16 @@ table td.bck-td-4 {
 
 table.bck-table-4 td.bck-td-2 {
     border-color: #EB71AC;
+}
+
+
+/*CELDA 5*/
+table td.bck-td-5 {
+    background-color: #FBD3C1;
+}
+
+table.bck-table-5 td.bck-td-2 {
+    border-color: #FBD3C1;
 }
 
 /*Actividades*/
