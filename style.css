@@ -301,7 +301,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover {
     padding-left: 10px
 }
 
-.donostiarraPlastica-navbar h3 {
+.donostiarraPlasticademo-navbar h3 {
     width: 75%;
     margin: auto auto 15px;
     font-size: 2rem;
@@ -358,7 +358,7 @@ body.is_app #actividad .class_slide {
     height: 1.8em
 }
 
-.donostiarraPlastica-navbar {
+.donostiarraPlasticademo-navbar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -369,18 +369,18 @@ body.is_app #actividad .class_slide {
     background: #545759
 }
 
-body.is_app .donostiarraPlastica-navbar {
+body.is_app .donostiarraPlasticademo-navbar {
     -webkit-transition: top .5s linear;
     -o-transition: top .5s linear;
     -moz-transition: top .5s linear;
     transition: top .5s linear
 }
 
-body.is_app .donostiarraPlastica-navbar.ocultar {
+body.is_app .donostiarraPlasticademo-navbar.ocultar {
     top: -136px
 }
 
-.donostiarraPlastica-navbar .navbar-content {
+.donostiarraPlasticademo-navbar .navbar-content {
     width: 100%;
     height: 100%;
     padding: 0 20px;
@@ -409,7 +409,7 @@ body.is_app .donostiarraPlastica-navbar.ocultar {
 }
 
 /*logo*/
-.content_type_curso_donostiarraPlastica .libro-left ul li .title:before {
+.content_type_curso_donostiarraPlasticademo .libro-left ul li .title:before {
     content: "";
     background-size: contain;
     top: 12px;
@@ -438,11 +438,11 @@ body.is_app .donostiarraPlastica-navbar.ocultar {
     background-position: center center;
 }
 
-.content_type_curso_donostiarraPlastica.content_type_clase_donostiarraPlastica .libro-left ul li .title:before {
+.content_type_curso_donostiarraPlasticademo.content_type_clase_donostiarraPlasticademo .libro-left ul li .title:before {
     opacity: 0;
 }
 
-.donostiarraPlastica-navbar .copyright {
+.donostiarraPlasticademo-navbar .copyright {
 display: none;
 }
 
@@ -2255,7 +2255,7 @@ table.bck-table-5 td.bck-td-2 {
 
 }
 
-.tmpux.content_type_clase_donostiarraPlastica .donostiarraPlastica-navbar.modo_revision {
+.tmpux.content_type_clase_donostiarraPlasticademo .donostiarraPlasticademo-navbar.modo_revision {
     top: 0;
     display: block!important
 }
