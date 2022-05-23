@@ -301,7 +301,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover {
     padding-left: 10px
 }
 
-.donostiarraPlasticaDemo-navbar h3 {
+.donostiarraPlastica-navbar h3 {
     width: 75%;
     margin: auto auto 15px;
     font-size: 2rem;
@@ -358,7 +358,7 @@ body.is_app #actividad .class_slide {
     height: 1.8em
 }
 
-.donostiarraPlasticaDemo-navbar {
+.donostiarraPlastica-navbar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -369,18 +369,18 @@ body.is_app #actividad .class_slide {
     background: #545759
 }
 
-body.is_app .donostiarraPlasticaDemo-navbar {
+body.is_app .donostiarraPlastica-navbar {
     -webkit-transition: top .5s linear;
     -o-transition: top .5s linear;
     -moz-transition: top .5s linear;
     transition: top .5s linear
 }
 
-body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
+body.is_app .donostiarraPlastica-navbar.ocultar {
     top: -136px
 }
 
-.donostiarraPlasticaDemo-navbar .navbar-content {
+.donostiarraPlastica-navbar .navbar-content {
     width: 100%;
     height: 100%;
     padding: 0 20px;
@@ -409,7 +409,7 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
 }
 
 /*logo*/
-.content_type_curso_donostiarraPlasticaDemo .libro-left ul li .title:before {
+.content_type_curso_donostiarraPlastica .libro-left ul li .title:before {
     content: "";
     background-size: contain;
     top: 12px;
@@ -438,11 +438,11 @@ body.is_app .donostiarraPlasticaDemo-navbar.ocultar {
     background-position: center center;
 }
 
-.content_type_curso_donostiarraPlasticaDemo.content_type_clase_donostiarraPlasticaDemo .libro-left ul li .title:before {
+.content_type_curso_donostiarraPlastica.content_type_clase_donostiarraPlastica .libro-left ul li .title:before {
     opacity: 0;
 }
 
-.donostiarraPlasticaDemo-navbar .copyright {
+.donostiarraPlastica-navbar .copyright {
 display: none;
 }
 
@@ -968,6 +968,29 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin: 13px 0 0 -15px;
 }
 
+/*lista desordenada 5*/
+#actividad .content .texto_curso .bck-ul-5 li,
+#actividad .content .workspace ul li .bck-ul-5 li,
+#actividad .popover-background.shown .popover-content .bck-ul-5 li {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 5px
+}
+
+#actividad .content .texto_curso .bck-ul-5 li:before,
+#actividad .content .workspace ul li .bck-ul-5 li:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #E82426;
+    position: absolute;
+    top: 0px;
+    border-radius: 100%;
+    left: auto;
+    margin: 13px 0 0 -15px;
+}
+
+
 /*listas ordenadas*/
 
 #actividad .content .cke_contents .bck-ol li:before,
@@ -1215,6 +1238,46 @@ counter-increment: bck-li-counter;
     position: absolute;
     margin-left: -33px;
     color: #F08B25;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0px;
+    font-family: 'Myriad Pro';
+    top: 0;
+    left: 0;
+}
+
+#actividad .content .cke_contents .bck-ol-6,
+#actividad .content .texto_curso .bck-ol-6,
+#actividad .content .workspace ul li .bck-ol-6,
+#actividad .popover-content .bck-ol-6 {
+    list-style-type: none;
+    counter-reset: bck-li-counter
+}
+
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .texto_curso .bck-ol-6 li,
+#actividad .content .workspace ul li .bck-ol-6 li,
+#actividad .popover-content .bck-ol-6 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 2rem;
+    line-height: 1.6em!important;
+    font-family: 'Myriad Pro';
+}
+
+#actividad .content .cke_contents .bck-ol-6 li:before, 
+#actividad .content .texto_curso .bck-ol-6 li:before, 
+#actividad .content .workspace ul li .bck-ol-6 li:before, 
+#actividad .popover-content .bck-ol-6 li:before {
+    content: counter(bck-li-counter) ". ";
+    position: absolute;
+    margin-left: -33px;
+    color: #E82426;
     font-weight: 700;
     font-size: 2rem;
     margin-top: 0px;
@@ -1871,6 +1934,49 @@ table.bck-table-4 td.bck-td-2 {
     color: #9EBC3F;
 }
 
+/*****************unittag_rojo*****************/
+.unittag_rojo #actividad .content img {
+    border: 2px solid #E82426;
+}
+
+/*título 1*/
+.unittag_rojo .bck-title-1 {
+    color: #E82426;
+}
+
+
+/*título 2*/
+.unittag_rojo .bck-title-2 {
+    background-color: #E82426;
+}
+
+/*título 3*/
+.unittag_rojo .bck-title-3 {
+    background-color: #F08566;
+}
+
+
+/*título 5*/
+.unittag_rojo .bck-title-5 {
+    color: #EB71AC;
+}
+
+
+/*énfasis*/
+.unittag_rojo .bck-enfasis-1 {
+    background-color: #E82426;
+}
+
+/*caja 1*/
+.unittag_rojo .bck-box.bck-box-1 {
+    background: #FCE8DC;
+    border: 3px solid #E82426;
+}
+
+.unittag_rojo .bck-box.bck-box-1>.bck-title p {
+    color: #E82426;
+}
+
 
 /*querys*/
 
@@ -2129,7 +2235,7 @@ table.bck-table-4 td.bck-td-2 {
 
 }
 
-.tmpux.content_type_clase_donostiarraPlasticaDemo .donostiarraPlasticaDemo-navbar.modo_revision {
+.tmpux.content_type_clase_donostiarraPlastica .donostiarraPlastica-navbar.modo_revision {
     top: 0;
     display: block!important
 }
