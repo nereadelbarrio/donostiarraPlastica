@@ -1,12 +1,12 @@
 (function (blink) {
 	'use strict';
 
-	var donostiarraPlasticaStyle = function () {
+	var donostiarraPlasticaStyledemo = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	donostiarraPlasticaStyle.prototype = {
+	donostiarraPlasticaStyledemo.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_donostiarraPlastica',
@@ -34,6 +34,7 @@
 				{ name: 'Lista 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 				{ name: 'Lista 03', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
 				{ name: 'Lista 04', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
+				{ name: 'Lista 05', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
 										
 				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
@@ -43,11 +44,13 @@
 				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
 				{ name: 'Tabla 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla 03', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
+				{ name: 'Tabla 04', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
 				
 				{ name: 'Celda 02', element: 'td', attributes: { 'class': 'bck-td-2'} },
 				{ name: 'Celda 03', element: 'td', attributes: { 'class': 'bck-td-3'} },
 				{ name: 'Celda 04', element: 'td', attributes: { 'class': 'bck-td-4'} },
-				
+				{ name: 'Celda 05', element: 'td', attributes: { 'class': 'bck-td-5'} },
+
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 
 				{ name: 'Desplegable 01', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } }
@@ -484,9 +487,9 @@
  		}
 	};
 
-	donostiarraPlasticaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraPlasticaStyle.prototype);
+	donostiarraPlasticaStyledemo.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraPlasticaStyledemo.prototype);
 
-	blink.theme.styles['donostiarraPlastica'] = donostiarraPlasticaStyle;
+	blink.theme.styles['donostiarraPlastica'] = donostiarraPlasticaStyledemo;
 
 })( blink );
 
