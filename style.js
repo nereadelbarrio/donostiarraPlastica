@@ -1,17 +1,17 @@
 (function (blink) {
 	'use strict';
 
-	var donostiarraPlasticaStyledemo = function () {
+	var donostiarraPlasticademoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	donostiarraPlasticaStyledemo.prototype = {
+	donostiarraPlasticademoStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_donostiarraPlastica',
+		bodyClassName: 'content_type_clase_donostiarraPlasticademo',
 		ckEditorStyles: {
-			name: 'donostiarraPlastica',
+			name: 'donostiarraPlasticademo',
 			styles: [
 				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },
@@ -202,7 +202,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlastica-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlasticademo-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -401,7 +401,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlastica-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlasticademo-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -487,9 +487,9 @@
  		}
 	};
 
-	donostiarraPlasticaStyledemo.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraPlasticaStyledemo.prototype);
+	donostiarraPlasticademoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraPlasticademoStyle.prototype);
 
-	blink.theme.styles['donostiarraPlastica'] = donostiarraPlasticaStyledemo;
+	blink.theme.styles['donostiarraPlasticademo'] = donostiarraPlasticademoStyle;
 
 })( blink );
 
