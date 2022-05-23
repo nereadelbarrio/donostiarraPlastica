@@ -46,10 +46,12 @@
 				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
 				{ name: 'Tabla 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla 03', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
+				{ name: 'Tabla 04', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
 				
 				{ name: 'Celda 02', element: 'td', attributes: { 'class': 'bck-td-2'} },
 				{ name: 'Celda 03', element: 'td', attributes: { 'class': 'bck-td-3'} },
 				{ name: 'Celda 04', element: 'td', attributes: { 'class': 'bck-td-4'} },
+				{ name: 'Celda 05', element: 'td', attributes: { 'class': 'bck-td-5'} },
 				
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 
