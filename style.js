@@ -1,17 +1,17 @@
 (function (blink) {
 	'use strict';
 
-	var donostiarraPlasticaDemoStyle = function () {
+	var donostiarraPlasticaStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	donostiarraPlasticaDemoStyle.prototype = {
+	donostiarraPlasticaStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_donostiarraPlasticaDemo',
+		bodyClassName: 'content_type_clase_donostiarraPlastica',
 		ckEditorStyles: {
-			name: 'donostiarraPlasticaDemo',
+			name: 'donostiarraPlastica',
 			styles: [
 				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },
@@ -29,11 +29,14 @@
 				{ name: 'Lista Desordenada 03', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-3' } },
 				{ name: 'Lista Desordenada 04', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-4' } },
 				{ name: 'Lista Desordenada 05', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-5' } },
+				{ name: 'Lista Desordenada 06', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-6' } },
 							
 				{ name: 'Lista 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 				{ name: 'Lista 03', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
 				{ name: 'Lista 04', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
+				{ name: 'Lista 05', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
+				{ name: 'Lista 06', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-6' } },
 										
 				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
@@ -199,7 +202,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlasticaDemo-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlastica-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -398,7 +401,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlasticaDemo-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraPlastica-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -484,9 +487,9 @@
  		}
 	};
 
-	donostiarraPlasticaDemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraPlasticaDemoStyle.prototype);
+	donostiarraPlasticaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraPlasticaStyle.prototype);
 
-	blink.theme.styles['donostiarraPlasticaDemo'] = donostiarraPlasticaDemoStyle;
+	blink.theme.styles['donostiarraPlastica'] = donostiarraPlasticaStyle;
 
 })( blink );
 
